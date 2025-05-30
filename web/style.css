@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8ecf1;
+    color: #222;
+}
+
+.login-container, .container {
+    max-width: 640px;
+    margin: 60px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.login-container:hover, .container:hover {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    text-align: center;
+    color: #37474f;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #455a64;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #5c6bc0;
+    outline: none;
+}
+
+.login-button, .logout-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c6bc0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover, .logout-button:hover {
+    background-color: #3f51b5;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #90a4ae;
+    font-size: 13px;
+}
+
+.posts-container {
+    margin-top: 40px;
+}
+
+.post {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #5c6bc0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #263238;
+}
+
+.post .date {
+    color: #607d8b;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.post .stats {
+    font-size: 14px;
+    color: #546e7a;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
