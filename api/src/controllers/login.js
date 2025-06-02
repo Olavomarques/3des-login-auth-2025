@@ -5,14 +5,14 @@ const Login = (req, res) => {
     const { user, psw } = req.body;
     
     try {
-        const correctPassword = ((user === "usuario@gmail.com") && (psw === "a1b2@b3c4"));
+        const correctPassword = ((user === "Claudio.aragao@gmail.com") && (psw === "Claudio1327"));
 
         if(!correctPassword) res.status(401).send({message:'E-mail or Password incorrect !'});
 
         const token = jsonwebtoken.sign(
             {
                 id: crypto.randomUUID(),
-                name: "Fulano da Silva",
+                name: "Claudio Aragão",
                 avatar: "https://cdn-icons-png.flaticon.com/128/1326/1326377.png"
             },
             process.env.SECRET_JWT,
